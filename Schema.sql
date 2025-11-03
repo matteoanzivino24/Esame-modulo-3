@@ -1,9 +1,4 @@
-Questo file deve contenere:
-● Le query SQL CREATE TABLE per tutte le tabelle necessarie a supportare il sistema.
-● La definizione di Primary Key, Foreign Key, tipi di dato appropriati e vincoli (es.
-NOT NULL).
-● Almeno due indici per ottimizzare le query che ritieni più frequenti, con un
-commento che ne spieghi lo scopo.
+
 
 create table Utenti(
 Id SERIAL primary key,
@@ -29,4 +24,5 @@ foreign key (ListeId) references Liste(Id)
 
 Indici :
 create index idx_utenteId on Attivita(UtenteId);
+
 create index idx_listeId on Attivita(ListeId);
