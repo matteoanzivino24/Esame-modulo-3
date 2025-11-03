@@ -1,7 +1,5 @@
 # a. Analisi del Dominio (DDD)
-Definisci il Linguaggio Ubiquo di TaskFlow. Identifica e descrivi almeno 5
-concetti chiave del dominio (Task, Stato Task,
-Conflitto, Utente, Lista).
+
 
 ### Task
 
@@ -24,14 +22,8 @@ Un Utente è colui che vuole gestire le proprie attività attraverso "TaskFlow"
 Uno slot orario rappresenta l'unità di tempo per cui si può effettuare una prenotazione di una sala riunioni. Lo slot orario corrisponde ad un'ora di tempo.
 
 
-c
-○ Definisci gli endpoint REST necessari per gestire le risorse Liste e Attività.
-○ Per ogni endpoint, specifica:
-■ Il metodo HTTP (GET, POST, PUT, DELETE).
-■ L'URI (es. /api/liste/{id}/attivita).
-■ Una breve descrizione di cosa fa.
-■ Un esempio del corpo della richiesta (body) in formato JSON, se
-necessario.
+
+
 
 ### Liste
 
@@ -307,3 +299,4 @@ DELETE /api/Attivita/{id}
 
 
 # c. Principi di progettazione
+
