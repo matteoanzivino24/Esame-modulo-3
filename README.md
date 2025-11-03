@@ -1,4 +1,4 @@
-# a. Analisi del Dominio (DDD)
+# a. Analisi del Dominio
 
 
 ### Task
@@ -299,4 +299,5 @@ DELETE /api/Attivita/{id}
 
 
 # c. Principi di progettazione
+
 
